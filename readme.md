@@ -13,9 +13,7 @@ To segment digit strings, firstly we need to detect and crop paper sheet in phot
 ## Results
 Dividing MNIST dataset into training and testing set, the accuracy of SVM can be 0.9852 and the accuracy of CNN can be 0.992. When testing on my own handwritten digits dataset, the accuracy is lower (~0.7 for SVM and ~0.9 for CNN).
 
-
 | Data Number | 0 | 1 | 3 | 4 | 5+6+7 | average |
-| :------: | :----: | :------: |
+| :------: | :----: | :------: | :----: | :------: | :----: | :------: |
 | SVM accuracy | 9 / 14 = 0.642857 | 8 / 17 = 0.470588 | 46 / 60 = 0.766667 | 28 / 39 = 0.717949 | 59 / 73 = 0.808219 | 150 / 203 = 0.738916 |
 | CNN accuracy | 12 / 14 = 0.857143 | 10 / 17 = 0.588235 | 48 / 60 = 0.800000 | 32 / 39 = 0.820513 | 73 / 73 = 1.000000 | 175 / 203 = 0.862068 |
-
